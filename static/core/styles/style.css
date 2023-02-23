@@ -1,0 +1,184 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* for navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    background-color: #070707;
+    font-weight: 600;
+    padding: 30px;
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.logo {
+    font-size: 2.1rem;
+}
+
+.navbar_content {
+    width: 650px;
+    height: 100%;
+    gap: 10px;
+}
+
+.navbar_content ul {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.navbar_content ul li {
+    list-style-type: none;
+    width: fit-content;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5px;
+}
+
+.navbar_content ul li:nth-child(4) {
+    height: 40px;
+    background-color: #FA9021;
+    border-radius: 12px;
+}
+
+
+/* for home */
+.home {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* for footer */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* custom */
+.column_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.column_start {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: start;
+}
+
+.rows_end {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 20px;
+}
+
+/* custom */
+
+
+
+footer {
+    background-color: #070707;
+    color: white;
+    width: 100%;
+    height: 250px;
+    position: absolute;
+    /* bottom: 0; */
+    /* left: 0;
+    right: 0; */
+}
+
+
+.footer_content {
+    width: 100%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    place-items: center;
+    gap: 30px;
+}
+
+.footer_content h4 {
+    font-weight: 700;
+}
+
+hr {
+    width: 100%;
+    color: black;
+}
+
+.column_1 {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
+
+.column_2 {
+    width: 80%;
+    height: 100%;
+}
+
+.column_2 h3 {
+    height: fit-content;
+    text-align: center;
+}
+
+ul {
+    width: 100%;
+    height: 70%;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.column_3 {
+    height: 100%;
+    width: 80%;
+}
+
+.column_4 {
+    width: 100%;
+    height: 100%;
+}
+
+.column_4 p {
+    height: 40px;
+    width: 40px;
+}
+
+.column_4 p img {
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
